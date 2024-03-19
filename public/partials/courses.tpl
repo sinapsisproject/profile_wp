@@ -10,7 +10,7 @@
             <div class="card-body">
               <h5 class="card-title">{$curso->curso->nombre}</h5>
               <p class="card-text">{$curso->curso->descripcion}</p>
-              <a href="#" class="btn btn-primary">Ver curso</a>
+              <a href="/cursos-sinapsis?curso={$curso->curso->id}" class="btn btn-primary">Ver curso</a>
             </div>
         </div>
     </div>
