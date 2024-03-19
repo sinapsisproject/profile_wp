@@ -37,7 +37,7 @@
                             <div class="row pb-2">
 
                                 <div class="accordion-header col-10">
-                                    <p class="text-title-header-accordeon">{$item->curso->nombre}</p>
+                                   <a href="/cursos-sinapsis/?curso={$item->curso->id}"><p class="text-title-header-accordeon">{$item->curso->nombre}</p></a>
                                 </div>
                                 <div class="col-2 text-center">
                                     <i data-bs-toggle="collapse" data-bs-target="#collapseOne_{$c}" aria-expanded="true" aria-controls="collapseOne" class="fa-solid fa-plus button-show-accordeon-course"></i>
