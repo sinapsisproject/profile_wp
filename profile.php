@@ -26,6 +26,14 @@
         true
         );
 
+        wp_enqueue_style( 
+        'css-profile-sinapsis',
+        plugins_url( '/public/css/profile.css', __FILE__ ),
+        array(),
+        rand(0, 99)
+        );
+
+
         // wp_localize_script(
         //     'courses-profile',
         //     'wp_ajax_sinapsis_profile',
