@@ -1,7 +1,7 @@
-<div class="row mb-5 mt-5">
+<div class="row mb-5 mt-3">
 
 
-<div class="name-text-user col-12 text-end">
+<div class="name-text-user col-12 text-center">
     <h3>Diego Baeza</h3>
 </div>
 

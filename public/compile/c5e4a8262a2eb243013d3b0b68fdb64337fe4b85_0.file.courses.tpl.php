@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.4.1, created on 2024-03-19 05:26:41
+/* Smarty version 4.4.1, created on 2024-03-19 05:46:28
   from 'C:\wamp64\www\sinapsis\wp-content\plugins\profile_wp\public\partials\courses.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.4.1',
-  'unifunc' => 'content_65f92211388c11_14930134',
+  'unifunc' => 'content_65f926b42fe5e1_59838871',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c5e4a8262a2eb243013d3b0b68fdb64337fe4b85' => 
     array (
       0 => 'C:\\wamp64\\www\\sinapsis\\wp-content\\plugins\\profile_wp\\public\\partials\\courses.tpl',
-      1 => 1710825996,
+      1 => 1710827007,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65f92211388c11_14930134 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65f926b42fe5e1_59838871 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="row mb-5 mt-5">
 
 
@@ -67,8 +67,9 @@ $_smarty_tpl->tpl_vars['item']->do_else = false;
                             <div class="row pb-2">
 
                                 <div class="accordion-header col-10">
-                                    <p class="text-title-header-accordeon"><?php echo $_smarty_tpl->tpl_vars['item']->value->curso->nombre;?>
-</p>
+                                   <a href="/cursos-sinapsis/?curso=<?php echo $_smarty_tpl->tpl_vars['item']->value->curso->id;?>
+"><p class="text-title-header-accordeon"><?php echo $_smarty_tpl->tpl_vars['item']->value->curso->nombre;?>
+</p></a>
                                 </div>
                                 <div class="col-2 text-center">
                                     <i data-bs-toggle="collapse" data-bs-target="#collapseOne_<?php echo $_smarty_tpl->tpl_vars['c']->value;?>
