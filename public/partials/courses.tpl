@@ -8,13 +8,13 @@
 
 <div class="row mt-4">
     <div class="col-4 text-center">
-        <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-user-graduate"></i><p>1 Cursos</p></div>
+        <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-user-graduate"></i><p>1 Curso</p></div>
     </div>
     <div class="col-4 text-center">
-        <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-circle-check"></i><p>0 Completado</p></div>
+        <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-circle-check"></i><p>0 Completados</p></div>
     </div>
     <div class="col-4 text-center">
-        <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-medal"></i><p>0 Certificado</p></div>
+        <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-medal"></i><p>0 Certificados</p></div>
     </div>
 </div>
 
