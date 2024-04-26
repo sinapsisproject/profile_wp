@@ -7,3 +7,16 @@
     padding: 45px;
     margin: 20px;
 }
+
+.box-status-course-complete{
+    background: #445AFF;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+.box-status-course-progress{
+    background: rgb(223, 223, 223);
+    color: black;
+    padding: 3px;
+    border-radius: 20px;
+}

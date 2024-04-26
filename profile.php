@@ -57,7 +57,7 @@
 
         $courses = RfCoreCurl::curl('/api/course/get_course_by_id_user/'.$id , 'GET' , $token, null);
 
-        $smarty->assign('cursos', $courses);
+        $smarty->assign('curso', $courses->response);
 
         return $smarty->fetch('courses.tpl');
 
