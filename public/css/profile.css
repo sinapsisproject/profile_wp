@@ -20,3 +20,33 @@
     padding: 3px;
     border-radius: 20px;
 }
+.content-course-data-item_2{
+    border-radius: 16px; 
+    background: white;
+    margin: 30px;
+}
+
+
+@media (max-width: 991px) {
+    .blue-box-content-course{
+        padding: 35px;
+        padding-top: 20px;
+    }
+    .content-course-data-item_2{
+        margin: 3px;
+        margin-top: 15px;
+    }
+    .text-title-header-accordeon
+    {
+        padding: 10px;
+        margin: 0px;
+    }
+    .button-collapse-course{
+        position: relative;
+        right: 15px;
+    }
+    .text-accordeon-body{
+        font-size: 13px;
+    }
+
+}

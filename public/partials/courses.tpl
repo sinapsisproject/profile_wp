@@ -1,24 +1,24 @@
-<div class="row mb-5 ">
+<div class="mb-5 ">
 
     <div class="name-text-user col-12 text-center">
         <h3>{$curso->nombre}</h3>
     </div>
 
     <div class="row mt-4">
-        <div class="col-4 text-center">
+        <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-user-graduate"></i><p>{$curso->cantidad_cursos} Curso</p></div>
         </div>
-        <div class="col-4 text-center">
+        <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-circle-check"></i><p>{$curso->cursos_terminados} Completados</p></div>
         </div>
-        <div class="col-4 text-center">
+        <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-medal"></i><p>0 Certificados</p></div>
         </div>
     </div>
 
 
     <div class="row justify-content-center mt-5">
-        <div style="height: 480px;" class="blue-box-content-course col-10">
+        <div style="height: 480px;" class="blue-box-content-course col-11 col-md-10">
             <h3>Mis cursos</h3>
             <p>Revisa los cursos activos que tienes en Sinapsis Clínica:</p>
         </div>
@@ -27,26 +27,26 @@
             {$c=0}
             {foreach $curso->cursos as $item}
             <p style="display : none;">{$c++}</p>
-            <div class="content-course-data-item shadow">
+            <div class="content-course-data-item_2 shadow">
                     <div class="accordion " id="accordion_{$c}">
                     
                             <div class="col-12 align-self-center">
                                 <div class="row">
 
-                                    <div class="accordion-header col-8">
+                                    <div class="accordion-header col-10 col-md-8">
                                     <a href="/cursos-sinapsis/?curso={$item->id}"><p class="text-title-header-accordeon">{$item->nombre}</p></a>
                                     </div>
                                     {if $item->porcentaje_progreso >= 100}
-                                    <div class="col-3 align-self-center text-center">
+                                    <div class="d-none d-md-block col-md-3 align-self-center text-center">
                                         <div class="box-status-course-complete"><strong>COMPLETADO</strong></div>
                                     </div>
                                     {/if}
                                     {if $item->porcentaje_progreso < 100}
-                                    <div class="col-3 align-self-center text-center">
+                                    <div class="d-none d-md-block col-md-3 align-self-center text-center">
                                         <div class="box-status-course-progress"><strong>EN PROGRESO</strong></div>
                                     </div>
                                     {/if}
-                                    <div class="col-1  align-self-center">
+                                    <div class="col-1 col-md-1 button-collapse-course align-self-center">
                                         <i data-bs-toggle="collapse" data-bs-target="#collapseOne_{$c}" aria-expanded="true" aria-controls="collapseOne" class="fa-solid fa-plus button-show-accordeon-course"></i>
                                     </div>
 
