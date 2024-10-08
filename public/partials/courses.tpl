@@ -12,12 +12,7 @@
                     // Verificamos si es 1 curso o más para usar singular o plural
                     echo $curso->cantidad_cursos . ' ' . ($curso->cantidad_cursos == 1 ? 'Curso' : 'Cursos'); 
                 ?>
-            </p> <p>
-                <?php 
-                    // Verificamos si es 1 curso o más para usar singular o plural
-                    echo $curso->cantidad_cursos . ' ' . ($curso->cantidad_cursos == 1 ? 'Curso' : 'Cursos'); 
-                ?>
-            </p>
+            </p> 
         </div>
         <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-circle-check"></i><p>{$curso->cursos_terminados} Completados</p></div>
