@@ -6,7 +6,7 @@
 
     <div class="row mt-4">
         <div class="col-12 col-md-4 text-center">
-            <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-user-graduate"></i><p>{$curso->cantidad_cursos} Curso</p></div>
+            <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-user-graduate"></i><p>{$curso->cantidad_cursos} Curso(s)</p></div>
         </div>
         <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-circle-check"></i><p>{$curso->cursos_terminados} Completados</p></div>
