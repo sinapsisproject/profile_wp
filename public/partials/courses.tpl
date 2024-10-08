@@ -12,6 +12,7 @@
                      {if $curso->cantidad_cursos == 1}Curso{else}Cursos{/if}
                 </p> 
             </div>
+        </div>
         <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-circle-check"></i><p>{$curso->cursos_terminados} Completados</p></div>
         </div>
