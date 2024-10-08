@@ -7,7 +7,7 @@
     <div class="row mt-4">
         <div class="col-12 col-md-4 text-center">
             <div class="box-info-user-course shadow"><i style="font-size: 30px; color: #445AFF; margin-bottom: 7px;" class="fa-solid fa-user-graduate"></i>
-                 <p>
+                <p>
                      {$curso->cantidad_cursos}  
                      {if $curso->cantidad_cursos == 1}Curso{else}Cursos{/if}
                 </p> 
